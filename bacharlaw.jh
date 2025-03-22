@@ -1,0 +1,73 @@
+entity Client {
+    address String,
+    description String,
+    email String,
+    fullName String,
+    lastUpdated Instant,
+    phone String,
+    active Boolean
+}
+
+entity ClientHistory {
+    description String,
+    date Instant
+}
+
+entity Fee {
+    active Boolean,
+    adjustedValue String,
+    adjustedValuePlus String,
+    amount Float,
+    description String,
+    name String,
+    startDate Instant,
+    value Float
+}
+
+entity Payment {
+    done Boolean,
+    startDate Instant,
+    value Float
+}
+
+entity Agreement {
+    name String,
+    startDate Instant
+}
+
+enum ClientHistoryType {
+    PAYMENT, CLIENT, AGREEMENT, FEE
+}
+
+enum ClientHistorySubType {
+    CREATE, UPDATE, DELETE
+}
+
+enum PaymentOperation {
+    PLUS, MINUS
+}
+
+enum PaymentType {
+    GENERAL, FEES
+}
+
+relationship OneToMany {
+    Client{histories} to ClientHistory,
+    Client{payments} to Payment,
+    Client{fees} to Fee,
+    Agreement{fees} to Fee
+}
+
+relationship OneToOne {
+    ClientHistory{type} to ClientHistoryType,
+    ClientHistory{subType} to ClientHistorySubType,
+    Payment{operation} to PaymentOperation,
+    Payment{paymentType} to PaymentType
+}
+
+relationship ManyToMany {
+    Fee{linkedFees} to Fee{linkedTo}
+}
+
+paginate Fee, ClientHistory with pagination
+paginate Payment with infinite-scroll

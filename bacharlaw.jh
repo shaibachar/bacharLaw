@@ -10,7 +10,9 @@ entity Client {
 
 entity ClientHistory {
     description String,
-    date Instant
+    date Instant,
+    type ClientHistoryType,
+    subType ClientHistorySubType
 }
 
 entity Fee {
@@ -27,7 +29,9 @@ entity Fee {
 entity Payment {
     done Boolean,
     startDate Instant,
-    value Float
+    value Float,
+    operation PaymentOperation,
+    paymentType PaymentType
 }
 
 entity Agreement {
@@ -56,13 +60,6 @@ relationship OneToMany {
     Client{payments} to Payment,
     Client{fees} to Fee,
     Agreement{fees} to Fee
-}
-
-relationship OneToOne {
-    ClientHistory{type} to ClientHistoryType,
-    ClientHistory{subType} to ClientHistorySubType,
-    Payment{operation} to PaymentOperation,
-    Payment{paymentType} to PaymentType
 }
 
 relationship ManyToMany {

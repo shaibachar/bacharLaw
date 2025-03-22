@@ -1,0 +1,62 @@
+{
+  "global": {
+    "title": "BacharLaw",
+    "browsehappy": "אתה משתמש <strong>בדפדפן מיושן</strong>. אנא <a href=\"http://browsehappy.com/?locale=he\">שדרג את הדפדפן שלך</a> כדי לשפר את החוויה שלך.",
+    "menu": {
+      "home": "בית",
+      "entities": {
+        "main": "ישויות",
+        "client": "לקוח",
+        "clientHistory": "היסטוריית לקוח",
+        "fee": "עמלה",
+        "payment": "תשלום",
+        "agreement": "הסכם"
+      },
+      "account": {
+        "main": "חשבון",
+        "settings": "הגדרות",
+        "password": "סיסמה",
+        "sessions": "הפעלות",
+        "login": "התחברות",
+        "logout": "התנתקות",
+        "register": "הרשמה"
+      },
+      "admin": {
+        "main": "ניהול",
+        "userManagement": "ניהול משתמשים",
+        "tracker": "מעקב משתמשים",
+        "metrics": "מדדים",
+        "health": "בריאות",
+        "configuration": "תצורה",
+        "logs": "יומנים",
+        "apidocs": "API",
+        "database": "מסד נתונים"
+      },
+      "language": "שפה"
+    },
+    "form": {
+      "username.label": "שם משתמש",
+      "username.placeholder": "שם המשתמש שלך",
+      "currentpassword.label": "סיסמה נוכחית",
+      "currentpassword.placeholder": "הסיסמה הנוכחית שלך",
+      "newpassword.label": "סיסמה חדשה",
+      "newpassword.placeholder": "הזן סיסמה חדשה",
+      "confirmpassword.label": "אישור סיסמה חדשה",
+      "confirmpassword.placeholder": "אשר את הסיסמה החדשה",
+      "email.label": "דוא\"ל",
+      "email.placeholder": "הזן את הדוא\"ל שלך"
+    },
+    "messages": {
+      "error": {
+        "dontmatch": "הסיסמה ואישורה אינם תואמים!"
+      }
+    },
+    "field": {
+      "id": "מזהה"
+    },
+    "ribbon": {
+      "dev": "פיתוח"
+    },
+    "item-count": "מציג {{first}} - {{second}} מתוך {{total}} פריטים."
+  }
+}

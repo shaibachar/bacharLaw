@@ -1,0 +1,102 @@
+{
+  "metrics": {
+    "title": "מדדי היישום",
+    "refresh.button": "רענן",
+    "updating": "מעדכן...",
+    "jvm": {
+      "title": "מדדי JVM",
+      "memory": {
+        "title": "זיכרון",
+        "total": "סך הזיכרון",
+        "heap": "זיכרון Heap",
+        "nonheap": "זיכרון Non-Heap"
+      },
+      "threads": {
+        "title": "תהליכונים",
+        "all": "הכל",
+        "runnable": "פעיל",
+        "timedwaiting": "ממתין לפי זמן",
+        "waiting": "ממתין",
+        "blocked": "חסום",
+        "dump": {
+          "title": "השלכת תהליכונים",
+          "id": "מזהה: ",
+          "blockedtime": "זמן חסימה",
+          "blockedcount": "מספר חסימות",
+          "waitedtime": "זמן המתנה",
+          "waitedcount": "מספר המתנות",
+          "lockname": "שם נעילה",
+          "stacktrace": "עקבות מחסנית",
+          "show": "הצג עקבות מחסנית",
+          "hide": "הסתר עקבות מחסנית"
+        }
+      },
+      "gc": {
+        "title": "איסוף זבל",
+        "marksweepcount": "מספר איסופים",
+        "marksweeptime": "משך איסוף",
+        "scavengecount": "מספר סריקות",
+        "scavengetime": "משך סריקה"
+      },
+      "http": {
+        "title": "בקשות HTTP (במילישניות)",
+        "active": "בקשות פעילות:",
+        "total": "סה\"כ בקשות:",
+        "table": {
+          "code": "קוד",
+          "count": "כמות",
+          "mean": "ממוצע",
+          "average": "ממוצע",
+          "max": "מקסימום"
+        },
+        "code": {
+          "ok": "בסדר",
+          "notfound": "לא נמצא",
+          "servererror": "שגיאת שרת"
+        }
+      }
+    },
+    "servicesstats": {
+      "title": "סטטיסטיקות שירותים (במילישניות)",
+      "table": {
+        "name": "שם השירות",
+        "count": "כמות",
+        "mean": "ממוצע",
+        "min": "מינימום",
+        "max": "מקסימום",
+        "p50": "p50",
+        "p75": "p75",
+        "p95": "p95",
+        "p99": "p99"
+      }
+    },
+    "cache": {
+      "title": "סטטיסטיקות מטמון",
+      "cachename": "שם המטמון",
+      "hits": "פגיעות",
+      "misses": "החמצות",
+      "gets": "קריאות",
+      "puts": "כתיבות",
+      "removals": "הסרות",
+      "evictions": "הרחקות",
+      "hitPercent": "אחוז פגיעות",
+      "missPercent": "אחוז החמצות",
+      "averageGetTime": "זמן ממוצע לקריאה (µs)",
+      "averagePutTime": "זמן ממוצע לכתיבה (µs)",
+      "averageRemoveTime": "זמן ממוצע להסרה (µs)"
+    },
+    "datasource": {
+      "usage": "שימוש בבריכת חיבורים",
+      "title": "סטטיסטיקות מקור נתונים (ms)",
+      "name": "שימוש בבריכה",
+      "count": "כמות",
+      "mean": "ממוצע",
+      "min": "מינימום",
+      "max": "מקסימום",
+      "p50": "p50",
+      "p75": "p75",
+      "p95": "p95",
+      "p99": "p99"
+    }
+  }
+}

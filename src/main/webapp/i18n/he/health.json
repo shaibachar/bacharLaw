@@ -1,0 +1,31 @@
+{
+  "health": {
+    "title": "בדיקות בריאות",
+    "refresh.button": "רענן",
+    "stacktrace": "עקבות מחסנית",
+    "details": {
+      "details": "פרטים",
+      "properties": "מאפיינים",
+      "name": "שם",
+      "value": "ערך",
+      "error": "שגיאה"
+    },
+    "indicator": {
+      "diskSpace": "שטח דיסק",
+      "mail": "דוא\"ל",
+      "livenessState": "מצב חיות",
+      "readinessState": "מצב מוכנות",
+      "ping": "יישום",
+      "db": "בסיס נתונים"
+    },
+    "table": {
+      "service": "שם השירות",
+      "status": "מצב"
+    },
+    "status": {
+      "UNKNOWN": "לא ידוע",
+      "UP": "פעיל",
+      "DOWN": "לא פעיל"
+    }
+  }
+}

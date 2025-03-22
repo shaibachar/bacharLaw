@@ -1,0 +1,26 @@
+{
+  "bacharLawApp": {
+    "agreement": {
+      "home": {
+        "title": "הסכמים",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור הסכם חדש",
+        "createOrEditLabel": "צור או ערוך הסכם",
+        "notFound": "לא נמצאו הסכמים"
+      },
+      "created": "הסכם חדש נוצר עם מזהה {{ param }}",
+      "updated": "הסכם עודכן עם מזהה {{ param }}",
+      "deleted": "הסכם נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את ההסכם {{ id }}?"
+      },
+      "detail": {
+        "title": "הסכם"
+      },
+      "id": "מזהה",
+      "name": "שם",
+      "startDate": "תאריך התחלה",
+      "fees": "עמלות"
+    }
+  }
+}

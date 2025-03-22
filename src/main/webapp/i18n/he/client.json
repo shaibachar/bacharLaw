@@ -1,0 +1,33 @@
+{
+  "bacharLawApp": {
+    "client": {
+      "home": {
+        "title": "לקוחות",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור לקוח חדש",
+        "createOrEditLabel": "צור או ערוך לקוח",
+        "notFound": "לא נמצאו לקוחות"
+      },
+      "created": "לקוח חדש נוצר עם מזהה {{ param }}",
+      "updated": "לקוח עודכן עם מזהה {{ param }}",
+      "deleted": "לקוח נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את הלקוח {{ id }}?"
+      },
+      "detail": {
+        "title": "לקוח"
+      },
+      "id": "מזהה",
+      "address": "כתובת",
+      "description": "תיאור",
+      "email": "דוא\"ל",
+      "fullName": "שם מלא",
+      "lastUpdated": "עודכן לאחרונה",
+      "phone": "טלפון",
+      "active": "פעיל",
+      "histories": "היסטוריות",
+      "payments": "תשלומים",
+      "fees": "עמלות"
+    }
+  }
+}

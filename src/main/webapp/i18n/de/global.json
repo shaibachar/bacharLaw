@@ -7,7 +7,12 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entitäten",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "client": "Client",
+        "clientHistory": "Client History",
+        "fee": "Fee",
+        "payment": "Payment",
+        "agreement": "Agreement"
       },
       "account": {
         "main": "Zugang",

@@ -1,0 +1,59 @@
+{
+  "annotations": {
+    "changelogDate": "20250322151152"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "adjustedValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adjustedValuePlus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Float"
+    }
+  ],
+  "name": "Fee",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "fee",
+      "otherEntityRelationshipName": "linkedTo",
+      "relationshipName": "linkedFees",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "fee",
+      "otherEntityRelationshipName": "linkedFees",
+      "relationshipName": "linkedTo",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

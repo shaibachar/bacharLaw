@@ -1,0 +1,28 @@
+{
+  "bacharLawApp": {
+    "clientHistory": {
+      "home": {
+        "title": "Client Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Client History",
+        "createOrEditLabel": "Create or edit a Client History",
+        "notFound": "No Client Histories found"
+      },
+      "created": "A new Client History is created with identifier {{ param }}",
+      "updated": "A Client History is updated with identifier {{ param }}",
+      "deleted": "A Client History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Client History {{ id }}?"
+      },
+      "detail": {
+        "title": "Client History"
+      },
+      "id": "ID",
+      "description": "Description",
+      "date": "Date",
+      "type": "Type",
+      "subType": "Sub Type",
+      "client": "Client"
+    }
+  }
+}

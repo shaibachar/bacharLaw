@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20250322151154"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Agreement",
+  "relationships": [
+    {
+      "otherEntityName": "fee",
+      "relationshipName": "fees",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

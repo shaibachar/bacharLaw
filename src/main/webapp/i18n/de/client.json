@@ -1,0 +1,33 @@
+{
+  "bacharLawApp": {
+    "client": {
+      "home": {
+        "title": "Clients",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Client erstellen",
+        "createOrEditLabel": "Client erstellen oder bearbeiten",
+        "notFound": "Keine Clients gefunden"
+      },
+      "created": "Client erstellt mit ID {{ param }}",
+      "updated": "Client aktualisiert mit ID {{ param }}",
+      "deleted": "Client gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Client {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "id": "ID",
+      "address": "Address",
+      "description": "Description",
+      "email": "Email",
+      "fullName": "Full Name",
+      "lastUpdated": "Last Updated",
+      "phone": "Phone",
+      "active": "Active",
+      "histories": "Histories",
+      "payments": "Payments",
+      "fees": "Fees"
+    }
+  }
+}

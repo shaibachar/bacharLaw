@@ -1,0 +1,9 @@
+{
+  "bacharLawApp": {
+    "PaymentOperation": {
+      "null": "",
+      "PLUS": "PLUS",
+      "MINUS": "MINUS"
+    }
+  }
+}

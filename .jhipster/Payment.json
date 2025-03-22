@@ -1,0 +1,34 @@
+{
+  "annotations": {
+    "changelogDate": "20250322151153"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "done",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "operation",
+      "fieldType": "PaymentOperation",
+      "fieldValues": "PLUS,MINUS"
+    },
+    {
+      "fieldName": "paymentType",
+      "fieldType": "PaymentType",
+      "fieldValues": "GENERAL,FEES"
+    }
+  ],
+  "name": "Payment",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "searchEngine": "no"
+}

@@ -1,0 +1,10 @@
+{
+  "bacharLawApp": {
+    "ClientHistorySubType": {
+      "null": "",
+      "CREATE": "CREATE",
+      "UPDATE": "UPDATE",
+      "DELETE": "DELETE"
+    }
+  }
+}

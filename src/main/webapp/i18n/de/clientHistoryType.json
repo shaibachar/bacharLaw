@@ -1,0 +1,11 @@
+{
+  "bacharLawApp": {
+    "ClientHistoryType": {
+      "null": "",
+      "PAYMENT": "PAYMENT",
+      "CLIENT": "CLIENT",
+      "AGREEMENT": "AGREEMENT",
+      "FEE": "FEE"
+    }
+  }
+}

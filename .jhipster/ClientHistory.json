@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20250322151151"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "ClientHistoryType",
+      "fieldValues": "PAYMENT,CLIENT,AGREEMENT,FEE"
+    },
+    {
+      "fieldName": "subType",
+      "fieldType": "ClientHistorySubType",
+      "fieldValues": "CREATE,UPDATE,DELETE"
+    }
+  ],
+  "name": "ClientHistory",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no"
+}

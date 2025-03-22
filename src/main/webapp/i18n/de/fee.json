@@ -1,0 +1,35 @@
+{
+  "bacharLawApp": {
+    "fee": {
+      "home": {
+        "title": "Fees",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Fee erstellen",
+        "createOrEditLabel": "Fee erstellen oder bearbeiten",
+        "notFound": "Keine Fees gefunden"
+      },
+      "created": "Fee erstellt mit ID {{ param }}",
+      "updated": "Fee aktualisiert mit ID {{ param }}",
+      "deleted": "Fee gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Fee {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Fee"
+      },
+      "id": "ID",
+      "active": "Active",
+      "adjustedValue": "Adjusted Value",
+      "adjustedValuePlus": "Adjusted Value Plus",
+      "amount": "Amount",
+      "description": "Description",
+      "name": "Name",
+      "startDate": "Start Date",
+      "value": "Value",
+      "linkedFees": "Linked Fees",
+      "linkedTo": "Linked To",
+      "client": "Client",
+      "agreement": "Agreement"
+    }
+  }
+}

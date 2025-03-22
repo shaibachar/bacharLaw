@@ -1,0 +1,26 @@
+{
+  "bacharLawApp": {
+    "agreement": {
+      "home": {
+        "title": "Agreements",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Agreement erstellen",
+        "createOrEditLabel": "Agreement erstellen oder bearbeiten",
+        "notFound": "Keine Agreements gefunden"
+      },
+      "created": "Agreement erstellt mit ID {{ param }}",
+      "updated": "Agreement aktualisiert mit ID {{ param }}",
+      "deleted": "Agreement gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Agreement {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Agreement"
+      },
+      "id": "ID",
+      "name": "Name",
+      "startDate": "Start Date",
+      "fees": "Fees"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity Fee.
+    -->
+    <changeSet id="20250322151152-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="fee_id"
+                                 baseTableName="rel_fee__linked_fees"
+                                 constraintName="fk_rel_fee__linked_fees__fee_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="fee"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="linked_fees_id"
+                                 baseTableName="rel_fee__linked_fees"
+                                 constraintName="fk_rel_fee__linked_fees__linked_fees_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="fee"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="client_id"
+                                 baseTableName="fee"
+                                 constraintName="fk_fee__client_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="client"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="agreement_id"
+                                 baseTableName="fee"
+                                 constraintName="fk_fee__agreement_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="agreement"
+                                 />
+    </changeSet>
+</databaseChangeLog>

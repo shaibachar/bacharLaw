@@ -1,0 +1,9 @@
+{
+  "bacharLawApp": {
+    "PaymentType": {
+      "null": "",
+      "GENERAL": "GENERAL",
+      "FEES": "FEES"
+    }
+  }
+}

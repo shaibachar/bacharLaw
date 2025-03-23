@@ -4,8 +4,10 @@
     "browsehappy": "אתה משתמש <strong>בדפדפן מיושן</strong>. אנא <a href=\"http://browsehappy.com/?locale=he\">שדרג את הדפדפן שלך</a> כדי לשפר את החוויה שלך.",
     "menu": {
       "home": "בית",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "ישויות",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
         "client": "לקוח",
         "clientHistory": "היסטוריית לקוח",
         "fee": "עמלה",
@@ -30,7 +32,8 @@
         "configuration": "תצורה",
         "logs": "יומנים",
         "apidocs": "API",
-        "database": "מסד נתונים"
+        "database": "מסד נתונים",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
       },
       "language": "שפה"
     },
@@ -47,8 +50,38 @@
       "email.placeholder": "הזן את הדוא\"ל שלך"
     },
     "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "אם ברצונך ",
+          "link": "להתחבר",
+          "suffix": ", תוכל לנסות את המשתמשים הבאים:<br/>- מנהל (login=\"admin\" והסיסמה=\"admin\") <br/>- משתמש (login=\"user\" והסיסמה=\"user\")."
+        },
+        "register": {
+          "noaccount": "עדיין אין לך חשבון?",
+          "link": "הרשם לחשבון חדש"
+        }
+      },
       "error": {
         "dontmatch": "הסיסמה ואישורה אינם תואמים!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "נדרשת סיסמה.",
+          "minlength": "הסיסמה חייבת להכיל לפחות 4 תווים.",
+          "maxlength": "הסיסמה לא יכולה להכיל יותר מ-50 תווים.",
+          "strength": "חוזק הסיסמה:"
+        },
+        "confirmpassword": {
+          "required": "נדרש אישור סיסמה.",
+          "minlength": "האישור חייב להכיל לפחות 4 תווים.",
+          "maxlength": "האישור לא יכול להכיל יותר מ-50 תווים."
+        },
+        "email": {
+          "required": "נדרש דוא\"ל.",
+          "invalid": "דוא\"ל שגוי.",
+          "minlength": "הדוא\"ל חייב להכיל לפחות 5 תווים.",
+          "maxlength": "הדוא\"ל לא יכול להכיל יותר מ-50 תווים."
+        }
       }
     },
     "field": {
@@ -58,5 +91,62 @@
       "dev": "פיתוח"
     },
     "item-count": "מציג {{first}} - {{second}} מתוך {{total}} פריטים."
-  }
+  },
+  "entity": {
+    "action": {
+      "addblob": "הוסף blob",
+      "addimage": "הוסף תמונה",
+      "back": "חזור",
+      "cancel": "בטל",
+      "delete": "מחק",
+      "edit": "ערוך",
+      "open": "פתח",
+      "save": "שמור",
+      "view": "צפה",
+      "show": "הצג {{otherEntity}}"
+    },
+    "detail": {
+      "field": "שדה",
+      "value": "ערך"
+    },
+    "delete": {
+      "title": "אשר פעולה של מחיקה"
+    },
+    "validation": {
+      "required": "שדה זה הינו חובה.",
+      "minlength": "השדה חייב להכיל לפחות {{ min }} תווים.",
+      "maxlength": "השדה לא יכול להכיל יותר מ-{{ max }} תווים.",
+      "min": "הערך חייב להיות לפחות {{ min }}.",
+      "max": "הערך לא יכול להיות גבוה מ-{{ max }}.",
+      "minbytes": "השדה חייב להכיל לפחות {{ min }} בתים.",
+      "maxbytes": "השדה לא יכול להכיל יותר מ-{{ max }} בתים.",
+      "pattern": "השדה חייב להתאים לתבנית עבור {{ pattern }}.",
+      "number": "השדה חייב להיות מספר.",
+      "datetimelocal": "השדה חייב להיות תאריך ושעה.",
+      "patternLogin": "השדה יכול להכיל אותיות, ספרות וכתובות דוא\"ל בלבד."
+    },
+    "filters": {
+      "set": "מסננים מופעלים",
+      "clear": "נקה מסנן",
+      "clearAll": "נקה את כל המסננים"
+    }
+  },
+  "error": {
+    "internalServerError": "שגיאת שרת פנימית",
+    "server.not.reachable": "השרת לא נגיש",
+    "url.not.found": "לא נמצא",
+    "NotNull": "השדה {{ fieldName }} לא יכול להיות ריק!",
+    "Size": "השדה {{ fieldName }} לא עומד בדרישות הגודל!",
+    "userexists": "שם המשתמש כבר בשימוש!",
+    "emailexists": "הדוא\"ל כבר בשימוש!",
+    "idexists": "{{ entityName }} חדש לא יכול כבר להכיל מזהה",
+    "idnull": "מזהה לא תקין",
+    "idinvalid": "מזהה לא תקין",
+    "idnotfound": "לא ניתן למצוא את המזהה",
+    "file": {
+      "could.not.extract": "לא ניתן לחלץ את הקובץ",
+      "not.image": "ציפינו לתמונה אך הקובץ הוא מסוג \"{{ fileType }}\""
+    }
+  },
+  "footer": "זהו אזור התחתון שלך"
 }

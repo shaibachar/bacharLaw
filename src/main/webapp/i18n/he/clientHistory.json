@@ -1,0 +1,28 @@
+{
+  "bacharLawApp": {
+    "clientHistory": {
+      "home": {
+        "title": "היסטוריות לקוח",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור היסטוריית לקוח חדשה",
+        "createOrEditLabel": "צור או ערוך היסטוריית לקוח",
+        "notFound": "לא נמצאו היסטוריות לקוח"
+      },
+      "created": "היסטוריית לקוח חדשה נוצרה עם מזהה {{ param }}",
+      "updated": "היסטוריית לקוח עודכנה עם מזהה {{ param }}",
+      "deleted": "היסטוריית לקוח נמחקה עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את היסטוריית הלקוח {{ id }}?"
+      },
+      "detail": {
+        "title": "היסטוריית לקוח"
+      },
+      "id": "מזהה",
+      "description": "תיאור",
+      "date": "תאריך",
+      "type": "סוג",
+      "subType": "תת-סוג",
+      "client": "לקוח"
+    }
+  }
+}

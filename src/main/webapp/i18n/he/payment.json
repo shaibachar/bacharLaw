@@ -1,0 +1,29 @@
+{
+  "bacharLawApp": {
+    "payment": {
+      "home": {
+        "title": "תשלומים",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור תשלום חדש",
+        "createOrEditLabel": "צור או ערוך תשלום",
+        "notFound": "לא נמצאו תשלומים"
+      },
+      "created": "תשלום חדש נוצר עם מזהה {{ param }}",
+      "updated": "תשלום עודכן עם מזהה {{ param }}",
+      "deleted": "תשלום נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את התשלום {{ id }}?"
+      },
+      "detail": {
+        "title": "תשלום"
+      },
+      "id": "מזהה",
+      "done": "בוצע",
+      "startDate": "תאריך התחלה",
+      "value": "סכום",
+      "operation": "סוג פעולה",
+      "paymentType": "סוג תשלום",
+      "client": "לקוח"
+    }
+  }
+}

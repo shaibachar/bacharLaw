@@ -1,0 +1,35 @@
+{
+  "bacharLawApp": {
+    "fee": {
+      "home": {
+        "title": "עמלות",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור עמלה חדשה",
+        "createOrEditLabel": "צור או ערוך עמלה",
+        "notFound": "לא נמצאו עמלות"
+      },
+      "created": "עמלה חדשה נוצרה עם מזהה {{ param }}",
+      "updated": "עמלה עודכנה עם מזהה {{ param }}",
+      "deleted": "עמלה נמחקה עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את העמלה {{ id }}?"
+      },
+      "detail": {
+        "title": "עמלה"
+      },
+      "id": "מזהה",
+      "active": "פעיל",
+      "adjustedValue": "ערך מותאם",
+      "adjustedValuePlus": "ערך מותאם פלוס",
+      "amount": "סכום",
+      "description": "תיאור",
+      "name": "שם",
+      "startDate": "תאריך התחלה",
+      "value": "ערך",
+      "linkedFees": "עמלות מקושרות",
+      "linkedTo": "מקושר ל",
+      "client": "לקוח",
+      "agreement": "הסכם"
+    }
+  }
+}

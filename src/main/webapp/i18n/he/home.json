@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "ברוך הבא, ג'אווה היפסטר!",
+    "subtitle": "זוהי דף הבית שלך",
+    "logged": {
+      "message": "אתה מחובר כמשתמש \"{{username}}\"."
+    },
+    "question": "אם יש לך שאלה על JHipster:",
+    "link": {
+      "homepage": "דף הבית של JHipster",
+      "stackoverflow": "JHipster ב-Stack Overflow",
+      "bugtracker": "מעקב באגים של JHipster",
+      "chat": "צ'אט ציבורי של JHipster",
+      "follow": "עקוב אחרי @jhipster בטוויטר"
+    },
+    "like": "אם אתה אוהב את JHipster, אל תשכח לתת לנו כוכב ב-",
+    "github": "GitHub"
+  }
+}

@@ -21,10 +21,7 @@ services:
         condition: service_healthy
 
   postgresql:
-    build:
-      context: .
-      dockerfile: Dockerfile-postgresql
-    image: custom-postgresql
+    image: postgres:14
     ports:
       - 5432:5432
     environment:

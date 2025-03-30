@@ -1,5 +1,5 @@
-# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-name: bacharlaw
+version: '3.8'
+
 services:
   app:
     image: bacharlaw
@@ -12,18 +12,27 @@ services:
     ports:
       - 127.0.0.1:9090:9090
     healthcheck:
-      test:
-        - CMD
-        - curl
-        - -f
-        - http://localhost:9090/management/health
+      test: ['CMD', 'curl', '-f', 'http://localhost:9090/management/health']
       interval: 5s
       timeout: 5s
       retries: 40
     depends_on:
       postgresql:
         condition: service_healthy
+
   postgresql:
-    extends:
-      file: ./postgresql.yml
-      service: postgresql
+    build:
+      context: .
+      dockerfile: Dockerfile-postgresql
+    image: custom-postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=bacharLaw
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    healthcheck:
+      test: ['CMD', 'pg_isready', '-U', 'postgres']
+      interval: 5s
+      timeout: 5s
+      retries: 5

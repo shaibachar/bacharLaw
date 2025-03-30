@@ -32,8 +32,13 @@ services:
       - POSTGRES_DB=bacharLaw
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
     healthcheck:
       test: ['CMD', 'pg_isready', '-U', 'postgres']
       interval: 5s
       timeout: 5s
       retries: 5
+
+volumes:
+  pgdata:
